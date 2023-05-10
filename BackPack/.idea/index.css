@@ -1,0 +1,147 @@
+/*navbar*/
+
+body{
+    font-family: "Montserrat";
+}
+
+/*nabar*/
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#hg{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.middle-content{
+    padding: 10px;
+}
+
+.drp{
+    padding-right: 10px;
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.navbar-light .navbar-nav {
+    color: white;
+}
+.navbar-light .navbar-brand {
+    color: ghostwhite;
+}
+
+.nav-item{
+
+    padding: 0 15px;
+    font-family: "montserrat-light";
+    font-size: 1.3rem;
+}
+
+/*header*/
+
+.contain{
+    text-align: center;
+}
+
+header{
+    min-height: 100vh;
+    height: 50%;
+    padding-top: 7rem;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../backround.jpg) center/cover no-repeat;*/
+    /*background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../background.jpg) center/cover no-repeat;*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../background.jpg) center/cover no-repeat;*/
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+    background:rgba(0,0,0,0.4)url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+
+
+}
+
+
+
+/*search bar*/
+.container{
+    padding: 7% 15%;
+}
+
+
+
+/*places*/
+
+/*#places{*/
+/*    padding: 7% 15%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.place-image{*/
+/*    width: 10%;*/
+/*    border-radius: 100%;*/
+/*    margin: 20px;*/
+/*}*/
+
+/*.carousel-item{*/
+/*    padding: 7% 15%;*/
+/*}*/
+
+
+
+
+
+#places{
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+    background-color: #ef8172;
+}
+
+.testimonials-image{
+    width: 50%;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+
+#features{
+    padding: 7% 15% ;
+    position: relative;
+    background-color: #fff;
+
+
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
